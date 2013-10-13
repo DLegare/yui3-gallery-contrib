@@ -1,0 +1,23 @@
+{
+    "name"    : "tagCloud",
+    "description " : "tagCloud Build File",
+    "type"    : "js",
+    "version" : "1.0.0",
+    "skip"    : ["template", "jslint"],
+    "sourceDir"   : "js",
+    "sourceFiles" : [
+        "tagCloud.js"
+    ],
+    "buildDir"  : "../../build/gallery-tagCloud",
+    "details" : {
+        "use"        : null,
+        "supersedes" : null,
+        "requires"   : ["node"],
+        "optional"   : null,
+        "after"      : null,
+        "after_map"  : {},
+        "lang"       : ["en-US"],
+        "skinnable"  : false
+    }
+}
+

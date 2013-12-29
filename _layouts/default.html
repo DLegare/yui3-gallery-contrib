@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>{% if page.title %}{{ page.title }}{% endif %}</title>
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Private Practice">
+    <meta name="author" content="Alberto Santini">
+
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            padding-top: 50px;
+            font-family: serif;
+            color: #444;
+        }
+    </style>
+
+    <script src="http://yui.yahooapis.com/3.14.1/build/yui/yui-min.js">
+    </script>
+</head>
+
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand"
+                href="https://github.com/albertosantini/yui3-gallery-contrib">
+                YUI3 Contrib</a>
+        </div>
+    </div>
+</div>
+
+<div class="container yui3-skin-sam">
+{{content}}
+</div>
+
+</body>
+</html>
+
